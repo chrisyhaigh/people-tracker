@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Tracker</title>
+    <link rel="stylesheet" href="libraries/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>People Tracker</h1>
+        <h3 id="counter">0</h3>
+        <button id="increment-btn" onclick="increment()" class="btn">INCREMENT</button>
+        <button id="decrease-btn" onclick="decrease()" class="btn">DECREMENT</button>
+        <button id="save-btn" onclick="save()" class="btn">SAVE</button>
+        <button id="refresh-btn" onclick="refresh()" class="btn">REFRESH</button>
+        <p id="people-element">People in the club: </p>
+    </div>
+
+    <script src="libraries/jquery/jquery-3.7.0.min.js"></script>
+    <script src="index.js"></script>
+    <script src="libraries/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
